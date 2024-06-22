@@ -1,0 +1,58 @@
+a {text-decoration:none;}
+
+* {  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box}
+
+.fLeft{float:left}
+.fRight{float:right}
+.txtL {text-align:left}
+.txtC {text-align:center}
+.txtR {text-align:right}
+.txtJ {text-align:justify}
+.semibold {font-weight:500}
+.bold {font-weight:600}
+.italic {font-style:italic}
+.underline {text-decoration:underline}
+.through {text-decoration:line-through}
+.red {color:red}
+
+.fade {transition:0.3s; -webkit-transition:0.3s }
+.clear {width:100%; overflow:hidden}
+.width50 {width:48%}
+.tUpper {text-transform:uppercase}
+.inlineImg {position:relative; top:3px}
+.liDisc {list-style-type:disc}
+.liNum {list-style-type:decimal}
+
+.imgThumb {overflow:hidden; text-align:center}
+.imgThumb img {display:block; width:100%; vertical-align:middle}
+.imgThumb.vertical img {width:auto; height:100%; margin:0 auto}
+.insideCenter {text-align:center}
+.insideCenter > * {display:inline-block}
+.tableTr {width:100%; overflow:hidden}
+.tableTr > div {float:left}
+
+/* flex box */
+.flex {display:flex; display:-ms-flexbox; display:-webkit-flex; }
+.flex-fLeft {flex-direction:row; -ms-flex-direction:row; -webkit-flex-direction:row;}
+.flex-fRight {flex-direction:row-reverse; -ms-flex-direction:row-reverse; -webkit-flex-direction:row-reverse;}
+.flex-wrap {flex-wrap:wrap ;-ms-flex-wrap:wrap; -webkit-flex-wrap:wrap;}
+.flex-hLeft {justify-content:flex-start; -webkit-justify-content:flex-start;}
+.flex-hBetween {justify-content:space-between; -webkit-justify-content:space-between;}
+.flex-hCenter {justify-content:center; -webkit-justify-content:center}
+.flex-vTop {-webkit-align-items:flex-start; -ms-flex-align:start; align-items: flex-start;}
+.flex-vBottom {-webkit-align-items:flex-end; -ms-flex-align:end; align-items: flex-end;}
+.flex-vCenter {-webkit-align-items:center; -ms-flex-align:center; align-items:center;}
+
+   
+    
+    
+
+input[type="text"], input[type="password"] {padding:0 8px}
+textarea {padding:8px}
+
+/* For Old Broswer */
+.flex-fLeft > * {float:left}
+.flex-fRight > * {float:right}
+img , a {border:0  \9}
+* {outline:0}
+
